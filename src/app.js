@@ -1,11 +1,15 @@
-var container = document.getElementById('container');
-function countdown(initial, final, interval) {
-    if (final === void 0) { final = 0; }
-    if (interval === void 0) { interval = 1; }
-    var current = initial;
-    while (current > final) {
-        container.innerHTML = current;
-        current -= interval;
-    }
-}
-countdown(10);
+// 4.1 Optional Parameters
+// import './ch04/ex4-1';
+System.register(["./ch06/ex6-5"], function (exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    return {
+        setters: [
+            function (_1) {
+            }
+        ],
+        execute: function () {// 4.1 Optional Parameters
+            // import './ch04/ex4-1';
+        }
+    };
+});

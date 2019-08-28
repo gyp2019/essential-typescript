@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "serve": "lite-server -c configs/my-bs-config.js"
+    "serve": "lite-server -c configs/my-bs-config.json"
   },
   "keywords": [],
   "author": "",
